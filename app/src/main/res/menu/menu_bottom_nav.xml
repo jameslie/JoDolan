@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_bottomnav_home"
+        android:title="Home"
+        android:icon="@drawable/home"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_berita"
+        android:title="News"
+        android:icon="@drawable/ic_baseline"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_bottomnav_akun"
+        android:title="Akun"
+        android:icon="@drawable/account"
+        app:showAsAction="ifRoom"
+        />
+</menu>
